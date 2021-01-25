@@ -1,0 +1,13 @@
+{
+	"n_targets": 16528,
+	"n_bootstraps": 0,
+	"n_processed": 23164563,
+	"n_pseudoaligned": 16756966,
+	"n_unique": 12381674,
+	"p_pseudoaligned": 72.3,
+	"p_unique": 53.5,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Wed Jul  4 13:41:35 2018",
+	"call": "kallisto quant -i cds/Phycomycesb_Phyb12.kallisto.idx -o results/kallisto/P.blakesleeanus_matL.late.r2 -t 8 --bias deve_reads/t2_5_1.fq.gz deve_reads/t2_5_2.fq.gz"
+}

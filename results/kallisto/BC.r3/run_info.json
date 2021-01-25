@@ -1,0 +1,13 @@
+{
+	"n_targets": 16528,
+	"n_bootstraps": 0,
+	"n_processed": 30868214,
+	"n_pseudoaligned": 24418219,
+	"n_unique": 21550792,
+	"p_pseudoaligned": 79.1,
+	"p_unique": 69.8,
+	"kallisto_version": "0.44.0",
+	"index_version": 10,
+	"start_time": "Wed Jul  4 13:41:35 2018",
+	"call": "kallisto quant -i cds/Phycomycesb_Phyb12.kallisto.idx -o results/kallisto/P.blakesleeanus_minus.unmated.r3 -t 8 --bias deve_reads/m3_2_1.fq.gz deve_reads/m3_2_2.fq.gz"
+}
